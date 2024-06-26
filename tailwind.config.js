@@ -8,6 +8,7 @@ export default {
       },
       backgroundImage: {
         hero: "url('./src/assets/images/hero4.jpeg')",
+        hero2: "url('./src/assets/images/hero5.png')",
       },
     },
   },

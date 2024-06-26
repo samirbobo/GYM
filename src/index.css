@@ -26,6 +26,12 @@ body {
   .hero {
     @apply bg-hero bg-no-repeat bg-cover
   }
+  .hero2 {
+    @apply bg-hero2 bg-no-repeat bg-cover
+  }
+  .heading{
+    @apply text-3xl leading-normal font-bold font-inter
+  }
 }
 
 @layer utilities {

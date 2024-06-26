@@ -9,7 +9,7 @@ import hamburger2 from "./hamburger2.png";
 import left from "./left.png";
 import play_circle from "./play_circle.png";
 import right from "./right.png";
-import runer from "./runer-silhouette-running-fast.png";
+import runner from "./runner-silhouette-running-fast.png";
 import workout from "./workout 1.png";
 import yoga from "./yoga 1.png";
 import youtube from "./youtube (1).png";
@@ -26,7 +26,7 @@ export {
   left,
   play_circle,
   right,
-  runer,
+  runner,
   workout,
   yoga,
   youtube,
