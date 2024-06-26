@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: black;
+  color: white;
+}
+
+@layer components {
+  .container {
+    @apply m-auto py-0 px-4 md:w-[750px] lg:w-[970px] xl:w-[1280px] max-w-[1440px];
+  }
+  .nav-links {
+    @apply md:flex gap-6 md:h-auto max-md:absolute max-md:w-full top-10 max-md:bg-slate-100 max-md:rounded-md max-md:z-10 max-md:h-0 max-md:p-0 transition-all ease-in-out duration-300 overflow-hidden;
+  }
+  .hero {
+    @apply bg-hero bg-no-repeat bg-cover
+  }
+}
+
+@layer utilities {
+  .padding-y {
+    @apply sm:py-24 py-12;
+  }
+}
