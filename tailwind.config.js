@@ -7,8 +7,8 @@ export default {
         inter: ["Inter", "sans-serif"],
       },
       backgroundImage: {
-        hero: "url('./src/assets/images/hero.jpeg')",
-        hero2: "url('./src/assets/images/hero2.png')",
+        hero: "url('assets/images/hero.jpeg')",
+        hero2: "url('assets/images/hero2.png')",
       },
     },
   },
