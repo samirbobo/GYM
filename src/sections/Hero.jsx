@@ -3,7 +3,10 @@ import { play_circle, youtube, google, facebook } from "../assets/icons";
 
 export default function Hero() {
   return (
-    <section className="relative padding-y container hero w-full min-h-screen">
+    <section
+      id="home"
+      className="relative padding-y container hero w-full min-h-screen"
+    >
       <div className="absolute top-1/2 sm:left-16 transform translate-y-[-50%]">
         <h2 className="sm:text-6xl text-3xl font-semibold font-inter leading-tight">
           Transform <br /> Your Body

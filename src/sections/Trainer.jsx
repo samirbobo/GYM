@@ -2,7 +2,7 @@ import { trainer1, whyJoin, whyJoin2 } from "../assets/images";
 
 export default function Trainer() {
   return (
-    <section className="container padding-y">
+    <section id="about" className="container padding-y">
       <h2 className="heading">
         Join Out <span className="text-[#FF921B]">Trainer</span>
       </h2>

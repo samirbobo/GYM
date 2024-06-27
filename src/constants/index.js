@@ -8,7 +8,7 @@ import {
 } from "../assets/icons";
 
 const navLinks = [
-  { label: "Home", href: "#Home" },
+  { label: "Home", href: "#home" },
   { label: "Services", href: "#services" },
   { label: "About", href: "#about" },
   { label: "Contacts", href: "#contact" },
